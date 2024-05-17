@@ -2,7 +2,7 @@ from flask import Blueprint, render_template
 from flask_login import login_required, current_user
 from . import db
 
-main = Blueprint('main', __name__) #Comment 012983019283091823091823098
+main = Blueprint('main', __name__) #ijsjjsjsjjsjs Comment 012983019283091823091823098
 
 @main.route('/')
 def index():
