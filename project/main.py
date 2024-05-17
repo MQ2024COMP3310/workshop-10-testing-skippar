@@ -6,7 +6,7 @@ main = Blueprint('main', __name__) #Comment 012983019283091823091823098
 
 @main.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html') #This comment is in the dev branch on my fork, idk if this will create a dev branch on the main repo
 
 # comment 1296102960934602
 
