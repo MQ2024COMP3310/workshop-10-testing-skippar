@@ -8,6 +8,9 @@ main = Blueprint('main', __name__) #Comment 012983019283091823091823098
 def index():
     return render_template('index.html') #This comment is in the dev branch on my fork, idk if this will create a dev branch on the main repo
 
+# The earlier comment didn't go to a dev branch on the original repo, it was in main. 
+# A dev branch has been added to the original repo, so I will push this and see if there is an option in the pull request to merge into dev branch.
+
 # comment 1296102960934602
 
 @main.route('/profile')
