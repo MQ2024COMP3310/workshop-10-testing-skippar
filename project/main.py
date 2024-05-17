@@ -12,7 +12,11 @@ def index():
 # A dev branch has been added to the original repo, so I will push this and see if there is an option in the pull request to merge into dev branch.
 
 # comment 1296102960934602
+<<<<<<< Updated upstream
 # am i in branch dev?
+=======
+print("test") # adding to dev then merging with test to see if the github action works
+>>>>>>> Stashed changes
 
 @main.route('/profile')
 @login_required
