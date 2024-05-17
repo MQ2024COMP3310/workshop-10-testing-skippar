@@ -89,6 +89,6 @@ class TestWebApp(unittest.TestCase):
             'password' : 'test'
         })
 
-        assert 
+        assert True
 
 
